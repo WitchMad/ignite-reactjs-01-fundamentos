@@ -17,13 +17,13 @@ export function App() {
       },
       content: [
         {
-          type: 'paragraph',
+          type: 'paragraph' as 'paragraph' | 'link',
           content: 'Lorem ipsum dolor'
         }, {
-          type: 'paragraph',
+          type: 'paragraph' as 'paragraph' | 'link',
           content: 'sit amet'
         }, {
-          type: 'link',
+          type: 'link' as 'paragraph' | 'link',
           content: 'next/image'
         }
       ],
@@ -38,13 +38,13 @@ export function App() {
       },
       content: [
         {
-          type: 'paragraph',
+          type: 'paragraph' as 'paragraph' | 'link',
           content: 'Lorem ipsum dolor'
         }, {
-          type: 'paragraph',
+          type: 'paragraph' as 'paragraph' | 'link',
           content: 'sit amet'
         }, {
-          type: 'link',
+          type: 'link' as 'paragraph' | 'link',
           content: 'next/image'
         }
       ],
